@@ -1,0 +1,83 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --primary-navy: #0A2A66;
+  --primary-gold: #D4A017;
+  --bg-cream: #FAF9F6;
+  --text-dark: #1A1A1A;
+  --surface-gray: #F5F5F5;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-inter), 'Inter', sans-serif;
+  background-color: #FAF9F6;
+  color: #1A1A1A;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #0A2A66;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4A017;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+}
+
+/* Glassmorphism utilities */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 160, 23, 0.15);
+}
+
+.glass-navy-card {
+  background: rgba(10, 42, 102, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 160, 23, 0.25);
+}
+
+/* Gold Gradient text */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #D4A017 0%, #F5E6A3 50%, #B5840F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navy-gradient-text {
+  background: linear-gradient(135deg, #0A2A66 0%, #1A56E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle pattern overlay */
+.subtle-pattern {
+  background-image: radial-gradient(rgba(10, 42, 102, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Gold border accent animation */
+.hover-gold-border {
+  transition: all 0.3s ease;
+  border: 1px solid rgba(10, 42, 102, 0.08);
+}
+.hover-gold-border:hover {
+  border-color: rgba(212, 160, 23, 0.6);
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px -10px rgba(10, 42, 102, 0.12);
+}
