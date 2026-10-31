@@ -24,7 +24,7 @@ export default function Footer() {
                 <div className="relative w-12 h-12 bg-white rounded-lg p-1 shadow flex items-center justify-center">
                   <Image
                     src="/jsm-logo.png"
-                    alt="JSM ASPIRE ACADEMY PVT. LTD. Logo"
+                    alt="JSM ASPIRE FOUNDATION PVT. LTD. Logo"
                     width={44}
                     height={44}
                     className="object-contain"
@@ -32,7 +32,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <h3 className="font-serif font-bold text-xl text-white tracking-wide">
-                    JSM ASPIRE ACADEMY
+                    JSM ASPIRE FOUNDATION
                   </h3>
                   <p className="text-xs text-gold font-semibold uppercase tracking-widest">
                     Pvt. Ltd. &bull; Capacity Building
@@ -183,7 +183,7 @@ export default function Footer() {
           {/* Bottom Bar */}
           <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
             <p>
-              &copy; {new Date().getFullYear()} <strong className="text-white">JSM ASPIRE ACADEMY PVT. LTD.</strong> All Rights Reserved.
+              &copy; {new Date().getFullYear()} <strong className="text-white">JSM ASPIRE FOUNDATION PVT. LTD.</strong> All Rights Reserved.
             </p>
             <p className="flex items-center gap-4">
               <span className="hover:text-gold transition cursor-pointer">Building Capacity</span>

@@ -64,7 +64,7 @@ export default function AboutPage() {
         <div className="absolute top-0 right-0 w-96 h-96 bg-gold/10 rounded-full blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto relative z-10 text-center space-y-4">
           <span className="px-4 py-1 bg-white/10 text-gold rounded-full text-xs font-bold uppercase tracking-widest border border-gold/30 inline-block">
-            About JSM Aspire Academy
+            About JSM Aspire Foundation
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight">
             Institutional Leadership & Capacity Building
@@ -91,7 +91,7 @@ export default function AboutPage() {
             <div className="w-20 h-1 bg-gold rounded-full" />
 
             <p className="text-base text-slate-700 leading-relaxed font-sans">
-              <strong>JSM ASPIRE ACADEMY PVT. LTD.</strong> is a multidisciplinary learning, training, and capacity-building organization delivering high-quality, outcome-driven training solutions across government, education, corporate, and community sectors.
+              <strong>JSM ASPIRE FOUNDATION PVT. LTD.</strong> is a multidisciplinary learning, training, and capacity-building organization delivering high-quality, outcome-driven training solutions across government, education, corporate, and community sectors.
             </p>
 
             <p className="text-sm text-slate-600 leading-relaxed">
@@ -125,7 +125,7 @@ export default function AboutPage() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <Image
                 src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop"
-                alt="JSM Aspire Academy Executive Training"
+                alt="JSM Aspire Foundation Executive Training"
                 width={600}
                 height={500}
                 className="object-cover w-full h-[450px]"
@@ -240,7 +240,7 @@ export default function AboutPage() {
               <span className="text-xs uppercase tracking-widest text-gold font-bold block mb-2">Our Pledge</span>
               <h3 className="text-xl font-serif font-bold text-white mb-2">Institutional Assurance</h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Every program delivered by JSM Aspire Academy undergoes continuous feedback loops, post-training evaluation, and alignment with national standards.
+                Every program delivered by JSM Aspire Foundation undergoes continuous feedback loops, post-training evaluation, and alignment with national standards.
               </p>
             </div>
             <button

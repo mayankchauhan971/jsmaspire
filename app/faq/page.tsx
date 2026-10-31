@@ -14,7 +14,7 @@ export default function FAQPage() {
   const faqs = [
     {
       question: 'Who do you work with?',
-      answer: 'JSM Aspire Academy works with a diverse array of institutional stakeholders including government departments, state administration bodies, educational institutions (schools, colleges, universities), corporate organizations, non-governmental organizations (NGOs), CSR foundations, development agencies, and regional training partners.',
+      answer: 'JSM Aspire Foundation works with a diverse array of institutional stakeholders including government departments, state administration bodies, educational institutions (schools, colleges, universities), corporate organizations, non-governmental organizations (NGOs), CSR foundations, development agencies, and regional training partners.',
     },
     {
       question: 'What types of training do you offer?',

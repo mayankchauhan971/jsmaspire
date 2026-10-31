@@ -72,7 +72,7 @@ export default function ContactPage() {
             Get In Touch
           </span>
           <h1 className="text-4xl sm:text-5xl font-serif font-bold text-white tracking-tight">
-            Contact JSM Aspire Academy
+            Contact JSM Aspire Foundation
           </h1>
           <p className="text-slate-200 text-base sm:text-lg max-w-2xl mx-auto font-sans leading-relaxed">
             Connect with our institutional training advisory team to discuss capacity building programs, empanelment, or customized workshop requirements.
@@ -87,7 +87,7 @@ export default function ContactPage() {
           <div className="lg:col-span-5 space-y-8">
             <div>
               <span className="text-xs font-bold text-gold uppercase tracking-wider block mb-1">Corporate Details</span>
-              <h2 className="text-3xl font-serif font-bold text-navy">JSM ASPIRE ACADEMY PVT. LTD.</h2>
+              <h2 className="text-3xl font-serif font-bold text-navy">JSM ASPIRE FOUNDATION PVT. LTD.</h2>
               <p className="text-sm text-slate-600 mt-2 leading-relaxed">
                 Multidisciplinary capacity-building & training organization serving government, education, corporate, and community sectors.
               </p>
@@ -182,7 +182,7 @@ export default function ContactPage() {
                   </div>
                   <h4 className="text-2xl font-serif font-bold text-navy">Inquiry Submitted Successfully!</h4>
                   <p className="text-slate-600 text-sm max-w-md mx-auto">
-                    Thank you for contacting JSM Aspire Academy Pvt. Ltd. Our institutional training advisory team has received your message and will respond promptly.
+                    Thank you for contacting JSM Aspire Foundation Pvt. Ltd. Our institutional training advisory team has received your message and will respond promptly.
                   </p>
                   <button
                     onClick={() => setSubmitted(false)}
@@ -339,7 +339,7 @@ export default function ContactPage() {
           <div className="w-full h-80 bg-slate-100 rounded-2xl overflow-hidden relative border border-slate-300 flex items-center justify-center">
             {/* Styled Map Graphic iframe placeholder */}
             <iframe
-              title="JSM Aspire Academy Location Map"
+              title="JSM Aspire Foundation Location Map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5621453248386!2d77.2090212!3d28.6139391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               width="100%"
               height="100%"

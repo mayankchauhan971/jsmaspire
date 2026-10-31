@@ -100,7 +100,7 @@ export default function ConsultationModal({ isOpen, onClose, defaultService = ''
                 <div className="relative w-10 h-10 bg-white rounded-lg p-1 flex items-center justify-center shadow">
                   <Image
                     src="/jsm-logo.png"
-                    alt="JSM Aspire Academy"
+                    alt="JSM Aspire Foundation"
                     width={36}
                     height={36}
                     className="object-contain"
@@ -112,7 +112,7 @@ export default function ConsultationModal({ isOpen, onClose, defaultService = ''
                 </div>
               </div>
               <p className="text-sm text-slate-200 mt-1 max-w-lg">
-                Partner with JSM Aspire Academy Pvt. Ltd. to design customized learning, capacity-building, and skill development programs.
+                Partner with JSM Aspire Foundation Pvt. Ltd. to design customized learning, capacity-building, and skill development programs.
               </p>
             </div>
 

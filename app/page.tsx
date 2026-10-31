@@ -187,7 +187,7 @@ export default function HomePage() {
                 />
               </div>
               <span className="text-xs sm:text-sm font-semibold tracking-wider text-gold uppercase">
-                JSM ASPIRE ACADEMY PVT. LTD.
+                JSM ASPIRE FOUNDATION PVT. LTD.
               </span>
             </div>
 
@@ -199,7 +199,7 @@ export default function HomePage() {
                 Creating Impact.
               </h1>
               <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-sans max-w-2xl">
-                JSM ASPIRE ACADEMY PVT. LTD. is a multidisciplinary learning, training, and capacity-building organization delivering high-quality, outcome-driven training solutions across government, education, corporate, and community sectors.
+                JSM ASPIRE FOUNDATION PVT. LTD. is a multidisciplinary learning, training, and capacity-building organization delivering high-quality, outcome-driven training solutions across government, education, corporate, and community sectors.
               </p>
             </div>
 
@@ -364,7 +364,7 @@ export default function HomePage() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
                 <Image
                   src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop"
-                  alt="JSM Aspire Academy Capacity Building Workshop"
+                  alt="JSM Aspire Foundation Capacity Building Workshop"
                   width={600}
                   height={500}
                   className="object-cover w-full h-[400px] lg:h-[480px]"
@@ -376,7 +376,7 @@ export default function HomePage() {
                       JSM
                     </div>
                     <div>
-                      <h4 className="text-sm font-bold text-navy">JSM ASPIRE ACADEMY PVT. LTD.</h4>
+                      <h4 className="text-sm font-bold text-navy">JSM ASPIRE FOUNDATION PVT. LTD.</h4>
                       <p className="text-xs text-slate-600">Empowering Leaders Across India</p>
                     </div>
                   </div>
@@ -398,7 +398,7 @@ export default function HomePage() {
               <div className="w-16 h-1 bg-gold rounded-full" />
 
               <p className="text-base text-slate-700 leading-relaxed font-sans">
-                <strong>JSM ASPIRE ACADEMY PVT. LTD.</strong> works closely with government departments, educational institutions, corporate organizations, NGOs, CSR initiatives, and development partners to strengthen knowledge, skills, leadership, and professional competencies through practical and impactful learning solutions.
+                <strong>JSM ASPIRE FOUNDATION PVT. LTD.</strong> works closely with government departments, educational institutions, corporate organizations, NGOs, CSR initiatives, and development partners to strengthen knowledge, skills, leadership, and professional competencies through practical and impactful learning solutions.
               </p>
 
               <p className="text-sm text-slate-600 leading-relaxed">
@@ -517,7 +517,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <SectionHeader
             badge="Institutional Excellence"
-            title="Why Choose JSM Aspire Academy?"
+            title="Why Choose JSM Aspire Foundation?"
             subtitle="Built on credibility, empirical methodology, and a commitment to measurable social and economic outcomes."
             light
           />

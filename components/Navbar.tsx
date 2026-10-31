@@ -69,7 +69,7 @@ export default function Navbar() {
             <div className="relative w-12 h-12 bg-white rounded-lg p-1 shadow-sm border border-gold/30 flex items-center justify-center group-hover:border-gold transition">
               <Image
                 src="/jsm-logo.png"
-                alt="JSM ASPIRE ACADEMY PVT. LTD. Logo"
+                alt="JSM ASPIRE FOUNDATION PVT. LTD. Logo"
                 width={44}
                 height={44}
                 className="object-contain"
@@ -78,7 +78,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="font-serif font-bold text-lg sm:text-xl text-navy tracking-tight group-hover:text-gold-600 transition">
-                JSM ASPIRE ACADEMY
+                JSM ASPIRE FOUNDATION
               </span>
               <span className="text-[10px] sm:text-[11px] font-sans font-semibold tracking-wider text-slate-500 uppercase">
                 Pvt. Ltd. &bull; Capacity Building

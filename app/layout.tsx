@@ -23,7 +23,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.jsmaspirefoundation.org'),
-  title: 'JSM ASPIRE ACADEMY PVT. LTD. | Capacity Building & Skill Development',
+  title: 'JSM ASPIRE FOUNDATION PVT. LTD. | Capacity Building & Skill Development',
   description: 'Multidisciplinary learning, training, and capacity-building organization delivering high-quality, outcome-driven training solutions across government, education, corporate, and community sectors.',
   keywords: [
     'Training Academy India',
@@ -33,23 +33,23 @@ export const metadata: Metadata = {
     'Skill Development',
     'Teacher Training',
     'Workforce Development',
-    'JSM Aspire Academy',
+    'JSM Aspire Foundation',
     'Training of Trainers',
     'Livelihood Programs'
   ],
-  authors: [{ name: 'JSM ASPIRE ACADEMY PVT. LTD.' }],
+  authors: [{ name: 'JSM ASPIRE FOUNDATION PVT. LTD.' }],
   robots: 'index, follow',
   openGraph: {
-    title: 'JSM ASPIRE ACADEMY PVT. LTD. | Building Capacity. Empowering People. Creating Impact.',
-    description: 'Premier training & capacity building academy for government departments, educational institutions, corporates, and development organizations.',
+    title: 'JSM ASPIRE FOUNDATION PVT. LTD. | Building Capacity. Empowering People. Creating Impact.',
+    description: 'Premier training & capacity building foundation for government departments, educational institutions, corporates, and development organizations.',
     url: 'https://www.jsmaspirefoundation.org',
-    siteName: 'JSM ASPIRE ACADEMY PVT. LTD.',
+    siteName: 'JSM ASPIRE FOUNDATION PVT. LTD.',
     images: [
       {
         url: '/jsm-logo.png',
         width: 800,
         height: 800,
-        alt: 'JSM ASPIRE ACADEMY Logo',
+        alt: 'JSM ASPIRE FOUNDATION Logo',
       },
     ],
     locale: 'en_IN',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'JSM ASPIRE ACADEMY PVT. LTD.',
+    title: 'JSM ASPIRE FOUNDATION PVT. LTD.',
     description: 'Building Capacity. Empowering People. Creating Impact.',
     images: ['/jsm-logo.png'],
   },
@@ -77,7 +77,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'EducationalOrganization',
-              name: 'JSM ASPIRE ACADEMY PVT. LTD.',
+              name: 'JSM ASPIRE FOUNDATION PVT. LTD.',
               url: 'https://www.jsmaspirefoundation.org',
               logo: 'https://www.jsmaspirefoundation.org/jsm-logo.png',
               contactPoint: {
