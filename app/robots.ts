@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'http://www.jsmaspireacademy.com/sitemap.xml',
+    sitemap: 'https://www.jsmaspirefoundation.org/sitemap.xml',
   };
 }

@@ -148,8 +148,8 @@ export default function Footer() {
                   <Mail className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
                   <div>
                     <span className="block font-medium text-white">Official Email</span>
-                    <a href="mailto:info@jsmaspireacademy.com" className="hover:text-gold transition text-slate-300 break-all">
-                      info@jsmaspireacademy.com
+                    <a href="mailto:info@jsmaspirefoundation.org" className="hover:text-gold transition text-slate-300 break-all">
+                      info@jsmaspirefoundation.org
                     </a>
                   </div>
                 </li>
@@ -157,8 +157,8 @@ export default function Footer() {
                   <Globe className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" />
                   <div>
                     <span className="block font-medium text-white">Website</span>
-                    <a href="http://www.jsmaspireacademy.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition text-slate-300">
-                      www.jsmaspireacademy.com
+                    <a href="https://www.jsmaspirefoundation.org" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition text-slate-300">
+                      www.jsmaspirefoundation.org
                     </a>
                   </div>
                 </li>

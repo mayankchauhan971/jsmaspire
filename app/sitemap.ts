@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'http://www.jsmaspireacademy.com';
+  const baseUrl = 'https://www.jsmaspirefoundation.org';
 
   return [
     {

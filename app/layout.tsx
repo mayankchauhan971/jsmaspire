@@ -22,7 +22,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://www.jsmaspireacademy.com'),
+  metadataBase: new URL('https://www.jsmaspirefoundation.org'),
   title: 'JSM ASPIRE ACADEMY PVT. LTD. | Capacity Building & Skill Development',
   description: 'Multidisciplinary learning, training, and capacity-building organization delivering high-quality, outcome-driven training solutions across government, education, corporate, and community sectors.',
   keywords: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'JSM ASPIRE ACADEMY PVT. LTD. | Building Capacity. Empowering People. Creating Impact.',
     description: 'Premier training & capacity building academy for government departments, educational institutions, corporates, and development organizations.',
-    url: 'http://www.jsmaspireacademy.com',
+    url: 'https://www.jsmaspirefoundation.org',
     siteName: 'JSM ASPIRE ACADEMY PVT. LTD.',
     images: [
       {
@@ -78,13 +78,13 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'EducationalOrganization',
               name: 'JSM ASPIRE ACADEMY PVT. LTD.',
-              url: 'http://www.jsmaspireacademy.com',
-              logo: 'http://www.jsmaspireacademy.com/jsm-logo.png',
+              url: 'https://www.jsmaspirefoundation.org',
+              logo: 'https://www.jsmaspirefoundation.org/jsm-logo.png',
               contactPoint: {
                 '@type': 'ContactPoint',
                 telephone: '+91-6009874892',
                 contactType: 'customer service',
-                email: 'info@jsmaspireacademy.com',
+                email: 'info@jsmaspirefoundation.org',
                 areaServed: 'IN',
                 availableLanguage: ['English', 'Hindi'],
               },

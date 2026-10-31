@@ -38,7 +38,7 @@ export default function ContactPage() {
     setLoading(true);
 
     try {
-      const res = await fetch('https://formsubmit.co/ajax/info@jsmaspireacademy.com', {
+      const res = await fetch('https://formsubmit.co/ajax/info@jsmaspirefoundation.org', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -115,8 +115,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-xs font-bold text-slate-500 uppercase tracking-wider">Official Email</h4>
-                  <a href="mailto:info@jsmaspireacademy.com" className="text-base font-serif font-bold text-navy hover:text-gold transition block break-all">
-                    info@jsmaspireacademy.com
+                  <a href="mailto:info@jsmaspirefoundation.org" className="text-base font-serif font-bold text-navy hover:text-gold transition block break-all">
+                    info@jsmaspirefoundation.org
                   </a>
                   <p className="text-xs text-slate-500 mt-0.5">Response guaranteed within 24 hours</p>
                 </div>
@@ -129,8 +129,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-xs font-bold text-slate-500 uppercase tracking-wider">Official Website</h4>
-                  <a href="http://www.jsmaspireacademy.com" target="_blank" rel="noopener noreferrer" className="text-base font-serif font-bold text-navy hover:text-gold transition block">
-                    www.jsmaspireacademy.com
+                  <a href="https://www.jsmaspirefoundation.org" target="_blank" rel="noopener noreferrer" className="text-base font-serif font-bold text-navy hover:text-gold transition block">
+                    www.jsmaspirefoundation.org
                   </a>
                   <p className="text-xs text-slate-500 mt-0.5">Static portal & information hub</p>
                 </div>

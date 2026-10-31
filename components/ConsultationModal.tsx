@@ -35,7 +35,7 @@ export default function ConsultationModal({ isOpen, onClose, defaultService = ''
 
     try {
       // Send to FormSubmit
-      const res = await fetch('https://formsubmit.co/ajax/info@jsmaspireacademy.com', {
+      const res = await fetch('https://formsubmit.co/ajax/info@jsmaspirefoundation.org', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

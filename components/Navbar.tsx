@@ -45,7 +45,7 @@ export default function Navbar() {
             </span>
             <span className="flex items-center gap-2 text-slate-200">
               <Mail className="w-3.5 h-3.5 text-gold" />
-              <a href="mailto:info@jsmaspireacademy.com" className="hover:text-gold transition">info@jsmaspireacademy.com</a>
+              <a href="mailto:info@jsmaspirefoundation.org" className="hover:text-gold transition">info@jsmaspirefoundation.org</a>
             </span>
           </div>
           <div className="flex items-center gap-4 text-slate-300">
